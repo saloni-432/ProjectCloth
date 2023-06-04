@@ -1,0 +1,52 @@
+.group{
+position: relative;
+margin: 45px 0;
+}
+.input-prop{
+    background: none;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 30vw;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid white;
+    margin: 25px 0;
+    outline: none;
+}
+.input-label{
+    color: white;
+    font-size: 16px;
+    font-weight: normal;
+    position: absolute;
+    pointer-events: none;
+    left: 5px;
+    top: 10px;
+    transition: all 300ms ease;
+}
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+    font-size: 15px;
+    -webkit-font-size: 15px;
+  -webkit-text-fill-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+.input-prop:focus ~ .input-label{
+     top:-14px;
+     font-size: 12px;
+     color: white;
+}
+.shrink{
+    top:-14px;
+     font-size: 12px;
+     color: white;
+}

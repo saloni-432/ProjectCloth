@@ -1,0 +1,4 @@
+.Item_GridContainer{
+    display: flex;
+    justify-content: space-evenly ;
+}

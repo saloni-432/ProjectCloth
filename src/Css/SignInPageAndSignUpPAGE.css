@@ -1,0 +1,7 @@
+.containerSign{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 50% 50%;    
+    margin-left: auto;
+    margin-right: auto;
+}
